@@ -1,5 +1,6 @@
 {
   "name": "now-ui-kit-react",
+  "homepage": "https://Mafe-SL.github.io/santillan_examen_parcial1",
   "version": "1.5.2",
   "private": true,
   "dependencies": {
@@ -17,6 +18,8 @@
     "sass": "1.62.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
